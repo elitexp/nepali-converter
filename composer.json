@@ -1,0 +1,28 @@
+{
+    "name": "elitexp/nepali-converter",
+    "description": "Nepali Conversion Functions",
+    "keywords": ["nepali", "converter","date","rupees","money","currency"],
+    "homepage": "https://github.com/elitexp/nepali-converter",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sujip Maharjan",
+            "email": "elitexp2008@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+
+    "autoload": {
+        "psr-4": {
+            "Elitexp\\NepaliConverter\\": "src/Asm89/Stack/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Elitexp\\NepaliConverter\\": "test/Asm89/Stack/"
+        }
+    }
+
+}
