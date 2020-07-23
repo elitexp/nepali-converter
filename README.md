@@ -16,7 +16,7 @@ This package can be used as a library.
 ```php
 <?php
 
-use Elitexp\NepaliConverter;
+use Elitexp\Converters\NepaliConverter;
 
 $converter = new NepaliConverter();
 
